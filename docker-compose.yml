@@ -1,0 +1,12 @@
+version: '2'
+services:
+  syslog-ng:
+    image: syslog-ng
+    container_name: syslog-ng
+    
+    ports:
+    - 514:514/udp
+    - 601:601/tcp
+
+    volumes:
+    - "./syslog.log:/var/log/network/syslog.log"
