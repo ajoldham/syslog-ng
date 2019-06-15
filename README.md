@@ -30,4 +30,4 @@ Run with:
 docker-compose up
 ```
 
-Notes:  You may need to disable/allow a local firewall to receive UDP 514 DNS requests in Docker.
+Notes:  You may need to disable/allow a local firewall to receive UDP 514 Syslog requests in Docker.
